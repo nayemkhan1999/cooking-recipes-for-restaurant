@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import HeaderSection from "./Components/DesignPart/HeaderSection";
 import NavBar from "./Components/DesignPart/NavBar";
 import Index from "./Components/Index";
 import Recepes from "./Components/Recepes";
@@ -37,6 +38,7 @@ function App() {
   return (
     <div>
       <NavBar></NavBar>
+      <HeaderSection></HeaderSection>
       <h1 className="text-3xl font-bold text-center">Our Recipes</h1>
       <div className="grid grid-cols-12 gap-5 lg:mx-16 mx-5 mt-5">
         <div className="col-span-8 ">
