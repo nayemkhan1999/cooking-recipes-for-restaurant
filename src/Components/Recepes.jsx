@@ -1,4 +1,4 @@
-const Recepes = ({ cart }) => {
+const Recepes = ({ cart, handleClick }) => {
   const {
     name,
     image,
@@ -67,7 +67,10 @@ const Recepes = ({ cart }) => {
             </div>
           </div>
           <div className="card-actions justify-start">
-            <button className="btn btn-info rounded-full font-medium mt-4 text-lg text-white">
+            <button
+              onClick={() => handleClick(cart)}
+              className="btn btn-info rounded-full font-medium mt-4 text-lg text-white"
+            >
               Want to Cook
             </button>
           </div>
