@@ -1,13 +1,6 @@
 const Recepes = ({ cart, handleClick }) => {
-  const {
-    name,
-    image,
-    description,
-    ingredients_length,
-    Ingredients,
-    preparing_time,
-    calories,
-  } = cart;
+  const { name, image, description, Ingredients, preparing_time, calories } =
+    cart;
   return (
     <div>
       <div className="card  bg-base-100 shadow-xl ">
@@ -41,7 +34,7 @@ const Recepes = ({ cart, handleClick }) => {
                   d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
                 />
               </svg>
-              <p>30 minutes</p>
+              <p>{preparing_time} minutes</p>
             </div>
             <div className="flex gap-3">
               <svg
@@ -63,7 +56,7 @@ const Recepes = ({ cart, handleClick }) => {
                   d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z"
                 />
               </svg>
-              <p>600 calories</p>
+              <p>{calories} calories</p>
             </div>
           </div>
           <div className="card-actions justify-start">
