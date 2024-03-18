@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.ibb.co/BLZMg8D/easy-flexitarian3.jpg",
+    "name": "Spaghe Carbona",
+    "description": "Classic Italian pasta dish with creamy sauce.",
+    "ingredients_length": 7,
+    "Ingredients": [
+      "550g ground beef",
+      "120ml soy sauce",
+      "200g basil leaf",
+      "400g mushroom"
+    ],
+    "preparing_time": "30 ",
+    "calories": "450 "
+  },
+  {
+    "id": "2",
+    "image": "https://i.ibb.co/BcVgd6J/food-meal1.jpg",
+    "name": "Vegetable Stir-Fry",
+    "description": "Healthy and colorful stir-fried vegetables.",
+    "ingredients_length": 6,
+    "Ingredients": [
+      "550g ground beef",
+      "120ml soy sauce",
+      "200g basil leaf",
+      "400g mushroom"
+    ],
+    "preparing_time": "25 ",
+    "calories": "250 "
+  },
+  {
+    "id": "3",
+    "image": "https://i.ibb.co/cwqn0rt/grilled-salmon.jpg",
+    "name": "Grilled Salmon",
+    "description": "Tender grilled salmon fillets with lemon.",
+    "ingredients_length": 5,
+    "Ingredients": [
+      "550g ground beef",
+      "120ml soy sauce",
+      "200g basil leaf",
+      "400g mushroom"
+    ],
+    "preparing_time": "20 ",
+    "calories": "350 "
+  },
+  {
+    "id": "4",
+    "image": "https://i.ibb.co/8dHbzbh/top-view-table2.jpg",
+    "name": "Chicken Caesar Salad",
+    "description": "Classic Caesar salad with grilled chicken.",
+    "ingredients_length": 8,
+    "Ingredients": [
+      "550g ground beef",
+      "120ml soy sauce",
+      "200g basil leaf",
+      "400g mushroom"
+    ],
+    "preparing_time": "15",
+    "calories": "320 "
+  },
+  {
+    "id": "5",
+    "image": "https://i.ibb.co/41hf3wv/pizza-pepperoni-table.jpg",
+    "name": "Home made Pizza",
+    "description": "Freshly baked pizza with your favorite toppings.",
+    "ingredients_length": 7,
+    "Ingredients": [
+      "550g ground beef",
+      "120ml soy sauce",
+      "200g basil leaf",
+      "400g mushroom"
+    ],
+    "preparing_time": "35",
+    "calories": "400 "
+  },
+  {
+    "id": "6",
+    "image": "https://i.ibb.co/Mp3zs3S/penne-pasta.jpg",
+    "name": "penne-pasta",
+    "description": "Moist and delicious banana bread for any occasion.",
+    "ingredients_length": 6,
+    "Ingredients": [
+      "550g ground beef",
+      "120ml soy sauce",
+      "200g basil leaf",
+      "400g mushroom"
+    ],
+    "preparing_time": "60 ",
+    "calories": "200 "
+  }
+]
