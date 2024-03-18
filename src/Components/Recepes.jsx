@@ -3,7 +3,7 @@ const Recepes = ({ cart, handleClick }) => {
     cart;
   return (
     <div>
-      <div className="card  bg-base-100 shadow-xl ">
+      <div className="card  bg-base-100 shadow-xl border-2">
         <figure>
           <img className="rounded-2xl w-80" src={image} alt="Shoes" />
         </figure>
@@ -62,7 +62,7 @@ const Recepes = ({ cart, handleClick }) => {
           <div className="card-actions justify-start">
             <button
               onClick={() => handleClick(cart)}
-              className="btn btn-info rounded-full font-medium mt-4 text-lg text-white"
+              className="btn bg-rose-500 rounded-full font-medium mt-4 text-lg text-white"
             >
               Want to Cook
             </button>

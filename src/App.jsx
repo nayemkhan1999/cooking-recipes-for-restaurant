@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import FooterSection from "./Components/DesignPart/FooterSection";
 import HeaderSection from "./Components/DesignPart/HeaderSection";
 import NavBar from "./Components/DesignPart/NavBar";
 import Index from "./Components/Index";
@@ -39,10 +40,18 @@ function App() {
     <div>
       <NavBar></NavBar>
       <HeaderSection></HeaderSection>
-      <h1 className="text-3xl font-bold text-center">Our Recipes</h1>
       <div className="grid grid-cols-12 gap-5 lg:mx-16 mx-5 mt-5">
         <div className="col-span-8 ">
-          <div className="grid grid-cols-2 gap-5">
+          <div>
+            <h1 className=" font-lexend mt-10 text-4xl font-semibold text-center">
+              Our Recipes
+            </h1>
+            <p className="text-lg font-normal opacity-70 text-center mt-4 mb-8">
+              If there’s one universal truth in life, it is this cake makes
+              everything <br /> better. Whether you’re a fan of chocolate,
+            </p>
+          </div>
+          <div className="grid grid-cols-2 gap-5 ">
             {menu.map((cart) => (
               <Recepes
                 key={cart.ind}
@@ -52,7 +61,7 @@ function App() {
             ))}
           </div>
         </div>
-        <div className="col-span-4 border-2 rounded-xl">
+        <div className="col-span-4 border-2 rounded-xl mt-[184px]">
           <Index
             order={order}
             handleRemove={handleRemove}
@@ -61,6 +70,7 @@ function App() {
           ></Index>
         </div>
       </div>
+      <FooterSection></FooterSection>
     </div>
   );
 }

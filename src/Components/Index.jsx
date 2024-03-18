@@ -1,6 +1,6 @@
 const Index = ({ order, handleRemove, cooking, handleCooking }) => {
   return (
-    <div className="text-center font-lexend">
+    <div className="text-center font-lexend ">
       <h1 className="text-2xl font-bold bgre">Want to cook: {order.length}</h1>
       <div className="divider divider-start"></div>
       <div className="overflow-x-auto">
@@ -28,7 +28,7 @@ const Index = ({ order, handleRemove, cooking, handleCooking }) => {
                       handleRemove(cook.id);
                       handleCooking(cook);
                     }}
-                    className="bg-info border-2 text-white font-bold rounded-full px-2 py-2 mt-3"
+                    className="bg-rose-500  text-white font-medium text-xs rounded-full px-2 py-2 mt-3 "
                   >
                     preparing
                   </button>
