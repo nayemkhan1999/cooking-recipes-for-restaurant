@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import FooterSection from "./Components/DesignPart/FooterSection";
 import HeaderSection from "./Components/DesignPart/HeaderSection";
 import NavBar from "./Components/DesignPart/NavBar";
@@ -23,7 +25,7 @@ function App() {
     if (!isExist) {
       setOrder([...order, e]);
     } else {
-      alert();
+      toast("Already Exist!");
     }
   };
 
@@ -70,6 +72,7 @@ function App() {
           ></Index>
         </div>
       </div>
+      <ToastContainer />
       <FooterSection></FooterSection>
     </div>
   );
